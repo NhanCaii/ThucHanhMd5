@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "title": "IPhone 13 Prooo",
+      "price": "25600000",
+      "description": "Iphone 12 like new 99%"
+    },
+    {
+      "id": "3",
+      "title": "Samsung Galaxy Ultra 22",
+      "price": "32000000",
+      "description": "Điện thoại chất lượng nhất của Samsung"
+    },
+    {
+      "id": "7",
+      "title": "Sint ad quo omnis cum",
+      "price": "132",
+      "description": "Ut veritatis nostrud autem sint officia dolo"
+    }
+  ]
+}

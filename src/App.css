@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #0056b3;
+}
+
+/* CSS cho bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* CSS cho tiêu đề cột */
+th {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: left;
+}
+
+/* CSS cho nội dung cột */
+td {
+  padding: 10px;
+}
+
+/* CSS cho hàng chẵn */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* CSS cho nút xóa */
+.delete-btn {
+  cursor: pointer;
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.delete-btn:hover {
+  color: #cc0000;
+}
+
+/* CSS cho phần td chứa link sản phẩm */
+.product-cell {
+  padding: 5px 10px; /* Padding để tạo khoảng cách xung quanh nội dung */
+}
+
+/* CSS cho link sản phẩm */
+.product-cell a {
+  background-color: white;
+  color: #000000; /* Màu chữ cho link */
+  text-decoration: none; /* Loại bỏ gạch chân mặc định của link */
+}
+
+/* CSS cho khi hover vào link */
+.product-cell a:hover {
+  text-decoration: underline; /* Gạch chân khi hover vào link */
+  color: #0056b3; /* Màu chữ thay đổi khi hover */
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+form > div {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
